@@ -32,6 +32,7 @@
   ansible.builtin.systemd:
     name: jenkins
     state: started
+    enabled: true
 
 - name: Pause for 1 minute to start Jenkins again
   ansible.builtin.pause:
