@@ -1,0 +1,13 @@
+- name: Install and Configure Jenkins
+  remote_user: ec2-user
+  become_user: root 
+  become: yes
+  hosts: default
+  vars_files:
+    - ./variables.yaml
+  roles:
+    - install-docker
+    - install-git
+    - install-jenkins
+    - jenkinscasc
+  
