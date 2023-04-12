@@ -9,7 +9,7 @@ To get started, you'll need to have Packer and Ansible installed on your local m
 git clone https://github.com/aryanrhm/jenkins-ami.git
 ```
 
-2. Add your [AWS credentials](https://developer.hashicorp.com/packer/plugins/builders/amazon#authentication).
+2. Add your AWS credentials. For more information on configuring AWS credentials, please refer to this [link](https://developer.hashicorp.com/packer/plugins/builders/amazon#authentication).
 
 3. Run Packer to build the AMI:
 ```
